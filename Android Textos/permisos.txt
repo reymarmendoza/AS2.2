@@ -1,0 +1,22 @@
+Permission
+
+https://developer.android.com/guide/topics/permissions/requesting.html
+a partir de marshmallow(23) los permisos los puede gestionar el usuario, por lo que en cualquier momento puede revocar uno de los permisos que se otorgaron en la
+instalacion del apk, por tanto es necesario revisar el nivel del API para validar si fue revocado u otorgado, esto se puede hacer mediante el metodo:
+int checkSelfPermission (String permission) Returns int	PERMISSION_GRANTED if you have the permission, or PERMISSION_DENIED if not.
+se puede usar <uses-permission-sdk-23 android:name="string" android:maxSdkVersion="integer" />
+
+validar el nivel del API puedo usar el metodo Build.VERSION.SDK_INT(return API_VALUE INT) o Build.VERSION.RELEASE(return STRING NUMBER_VERSION) contra el 
+VERSION_NUMBER preferiblemente ya que no existe un metodo que devuelva el CODE_NAME_VERSION
+
+validar si un permiso ha sido otorgado(https://developer.android.com/training/permissions/requesting.html):
+getPackageManager().checkPermission() recibe dos parametros: permiso, nombre_paquete(getApplicationContext().getPackageName()) y return -1 cuando no ha sido otorgado
+el permiso y 0 cuando si lo otorgo, valido el estado del permiso con PackageManager.PERMISSION_GRANTED(or DENIED) y lo consulto con 
+Manifest.permission.NOMBRE DEL PERMISO(ej: WRITE_EXTERNAL_STORAGE) tambien se puede usar checkSelfPermission(Manifest.permission.INTERNET)(mucho mas facil)
+
+http://www.programcreek.com/java-api-examples/index.php?source_dir=jdroid-master/jdroid-android/src/main/java/com/jdroid/android/permission/PermissionHelper.java
+cuando el cliente solecciono NO OTORGAR un permiso puedo informarle el porque de la necesidad de este permiso con el metodo shouldShowRequestPermissionRationale,
+asi aparecera un cuadro de dialogo(que yo inflo) que le indica que permita el acceso de la app a este servicio, a partir de alli lo manejo para cambiar dinamicamente
+el estado del permiso
+
+ejemplos http://www.programcreek.com/java-api-examples/index.php?class=android.support.v4.app.ActivityCompat&method=shouldShowRequestPermissionRationale

@@ -1,0 +1,4 @@
+en los fragmentos se pueden agregar al APPBAR la opcion de añadir un item al
+menu de los tres puntos, esto se hizo por medio de setHasOptionsMenu(true) en el onCreate del 
+fragmento. los xml MENU son dos, uno creado en la MAINACTIVITY y otro que se agrega
+desde el fragmento

@@ -1,0 +1,11 @@
+no se permiten hacer consumming operation en el mainthread, 
+network calls, decoding bitmaps or r/w DB por tanto se usa la clase 
+ASYNCTASK<String, void, Bitmap>:
+se crea una clase propia que extiende de ASINCTASK para que el ide sepa
+que es un proceso que no se ejecuta en el MAINTHREAD
+String = type passed
+al declarar un string como primer para metro tendra (String...)
+como parametro en DoInBackground
+Void = tipo de objeto que tendra cuando ProgressUpdate sea ejecutado.
+no es obligatorio implementarlo
+Bitmap = es el tipo de dato que retorna, se realiza en onPostExecute

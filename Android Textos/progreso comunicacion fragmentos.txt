@@ -1,0 +1,29 @@
+para la comunicacion entre el fragmento Blank y Second se va a usar su 
+actividad, es decir MainActivity, se va a IMPLEMENTS el comunicador
+en el MainActivity
+
+la interfaz esta declarada en el fragmento, tambien se puede crear por
+aparte e instanciarlo dentro de la clase
+
+la interface es implementada por la ACTIVIDAD y sobrecarga el unico 
+metodo que posee la INTERFACE en la ACTIVIDAD, alli recibe y
+asigna los parametros al metodo en el main
+
+desde este metodo se asigna al otro fragmento
+
+bug:se colocan tres y ela maquina pone la 4 en fila en diagonal iz as
+hor der izq
+
+tipos de animaciones 
+
+gif
+fotograma a fotograma
+tweening - interpolacion
+open gl es
+
+tweening - interpolacion
+se pueden definir en xml o java
+alfa: transparencia
+rotate: rotar una vista
+scale: cambiar el tamaño
+traslate: desplazar una vista

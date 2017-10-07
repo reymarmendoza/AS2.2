@@ -1,0 +1,27 @@
+preferences
+
+
+son pequeñas cantidades de datos almacenadas en ares clave + valor, la clave debe ser string 
+
+se agregan desde un PreferenceFragment(public class SettingsFragment extends PreferenceFragment{ ), se debe crear una carpeta de nombre XML en RES y alli creo un layout
+con la etiqueta <PreferenceScreen>, en el proyecto estan explicados los elementos que se pueden agregar a la ui
+
+como se usa un fragmento, este esta atado a una actividad que debe estar incluida en el manifest
+
+para gestionar los cambios en las preferences: implements SharedPreferences.OnSharedPreferenceChangeListener y ademas se debe asignar el listener preferiblemente en el
+onResume getPreferenceManager().getSharedPreferences().registerOnSharedPreferenceChangeListener(this);
+
+cuando se agrega el listener se debe implementar la clase que gestiona los cambios, alli estoy capturando la key del valor que esta recibiendo el cambio y el objeto
+sharedpreferences que es el que guarda en memoria las opciones de preferencias
+
+se implementan metodos para leer(get) la configuracion previa definida antes de iniciar la actividad principal y metodos de escritura(set) que se ejecutan en settings y editan 
+los valores previos de la app
+
+cuando cambio la preferencia se reinicia la app, debo aplicar los cambios cuando la actividad settings se cierre, entonces debo registrar los cambios en el onpause,
+si, cuando no uso apply, va mucho mas rapido y permite ver los cmabios normalmente.
+hay un problema si se crean varios apply solo se ejecuta el ultimo, deberia moverlo a un asynctask
+
+
+
+musica libre de derechos de autor:
+http://incompetech.com/music/royalty-free/

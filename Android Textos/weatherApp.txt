@@ -1,0 +1,80 @@
+se creo un listview dentro del MAINFRAGMENT, ademas se creo un textview como un 
+layout el cual va a ser usado para crear los campos del listview
+
+se creo un fragmento que es inflado en el MAINLAYOUT.
+/*
+en el onCreateView del fragmento se creo un arraylist como datos de prueba para
+mostrar contenido en el LISTVIEW
+*/
+ahora se van a tomar los datos de un weather API, para ello se deben añadir los
+permisos de internet en el manifest, el resultado que se obtiene esta en JSON
+
+el codigo para el acceso al api esta en los comentarios del fragmento
+
+se usa una conexion HTTP en un try catch en el metodo FetchWeatherTask que es un 
+AsyncTask
+
+se añadio desde un item al menu con un fragmento que se inflo dentro de la lista
+desplegable de opciones
+
+la primera vez que ingresa el usuario a la app se ejecuta el metodo requestPermission
+que esta en el metodo solicitarPermisoAlUsuario; esto por la peticion que se hace 
+en el manifest para usar el GPS por lo que al recibir la respuesta en el metodo
+onRequestPermissionsResult, si es negativa muestro un fragmento explicando el 
+porque es necesario el permiso, si es positivo continuo con la ejecucion normal
+
+se trabaja en el doinbkgnd para que se sincronize con el api online, hay varias 
+cosas por hacer que se dejan anotadas
+
+por seguridad las credenciales del API se guardan en gradle.properties para evitar
+hacerlos publicos, para ello se define en release{} y debug{} dentro del 
+buildTypes del APP gradle:
+buildConfigField "tipo_dato", "nombre_var", project.property('properties_var')
+
+se añadio un nuevo frgamento desde el acceso a settings(se elimino porque no
+permite el acceso al asynctask?¿?)
+
+en el try de fetchweather creo un objeto uri con los parametros para ejecutar 
+la query al api
+
+https://jsonformatter.curiousconcept.com  sirve para formatear el JSON y usarlo
+mas facilmente
+
+en el oncreateview, donde se crea el adaptador, se añade un onitemclicklistener
+
+desde el fragment hago un llamado a un nuevo activity por medio de un intent 
+y ademas envio informacion a la nueva actividad(que infla un fragmento) por medio
+de un extra añadido al intent donde se envia la infomracion del item listview que
+se pulso
+
+creo detailactivity e inflo el fragmento detailfragment, añado ademas el menu
+
+se infla desde la carpeta xml que contiene preferences la activity settings y
+se agrega un escuchador de cambio de las preferencias
+
+
+java.lang.NullPointerException: Attempt to invoke virtual method 'void android.preference.Preference.setOnPreferenceChangeListener(android.preference.Preference$OnPreferenceChangeListener)' on a null object reference
+java.lang.NullPointerException: Attempt to invoke virtual method 'void android.preference.Preference.setOnPreferenceChangeListener(android.preference.Preference$OnPreferenceChangeListener)' on a null object reference
+java.lang.NullPointerException: Attempt to invoke virtual method 'android.content.Context android.preference.Preference.getContext()' on a null object reference
+
+
+
+//no funciona aun
+se movieron las clases operativas a WeatherAplication para separar la logica de
+la UI, en esta nueva clase se extiende de Application, para que funcione se debe 
+añadir android:name=".WeatherAplication" en application del manifest
+
+obtener la ubicacion desde gps
+http://expocodetech.com/expo-tips-como-obtener-la-ubicacion-actual-con-el-gps-de-android/
+http://stackoverflow.com/questions/1513485/how-do-i-get-the-current-gps-location-programmatically-in-android
+http://rdcworld-android.blogspot.com.co/2012/01/get-current-location-coordinates-city.html
+
+mover el menuItemSelected a una sola clase
+
+el asynctask, en el try debo pedir los parametros finales desde SETTINGS
+
+revisar en el aplication del manifest
+https://developer.android.com/training/app-indexing/deep-linking.html
+http://stackoverflow.com/questions/34173545/app-is-not-indexable-by-google-search-android-lint
+
+REVISAR PARA SEPARAR LA LOGICA DE LA UI, REORGANIZAR CUANDO FUNCIONE

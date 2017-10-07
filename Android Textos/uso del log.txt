@@ -1,0 +1,8 @@
+uso del log
+
+kinds log:  
+error 	log.e(String tag, String msg)
+warn 	log.w 
+info 	..
+debug	
+verbose	

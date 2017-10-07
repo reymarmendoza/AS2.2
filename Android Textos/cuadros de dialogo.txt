@@ -1,0 +1,5 @@
+cuadros de dialogo
+
+https://developer.android.com/guide/topics/ui/dialogs.html?hl=es
+los cuadros de dialogo se crean como un fragmento, como ya tienen un diseño por defecto no es necesario implementar una vista, se construye en un fragment.java y se 
+invoca donde lo quiero usar, asi mismo puedo usar sus metodos para la interaccion con los botones
