@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">UnaPrimeraApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="hola_mundo">Hola mundo</string>
+    <!-- CAMBIO 1:
+    	El nombre de la cadena de abajo tiene una errata. Corrigelo para que coincida
+    	con el que se usa en actividad_principal.xml. -->
+    <string name="etqueta_boton1">Soy un botón</string>
+    <string name="etiqueta_boton2">Otro botón</string>
+    <string name="otra_etiqueta_boton2">Sigo siendo un botón</string>
+    
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cvMovie"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/activity_vertical_margin"
+    android:layout_marginRight="@dimen/activity_vertical_margin"
+    android:layout_marginTop="@dimen/activity_vertical_margin"
+    android:clickable="true"
+    android:foreground="?android:attr/selectableItemBackground">
+    <!--
+        layout_marginBottom separa cada pelicula en la lista
+        selectableItemBackground es un efecto al hacer click
+    -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <!--
+            maxLength maximo numero de caracteres
+        -->
+        <ImageView
+            android:id="@+id/ivMovieImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            app:srcCompat="@mipmap/ic_launcher"
+            android:contentDescription="@string/imagenDescription"/>
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="@dimen/activity_small_margin"
+            android:layout_marginTop="@dimen/activity_small_margin"
+            android:layout_toEndOf="@id/ivMovieImage"
+            android:layout_toRightOf="@id/ivMovieImage"
+            android:maxLength="20"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/black"
+            tools:text="Captain America"/>
+        <TextView
+            android:id="@+id/tvOverview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvTitle"
+            android:layout_marginTop="@dimen/activity_small_margin"
+            android:layout_marginLeft="@dimen/activity_small_margin"
+            android:layout_toRightOf="@id/ivMovieImage"
+            android:layout_toEndOf="@id/ivMovieImage"
+            android:maxLength="190"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/black"
+            tools:text="Captain America overview"/>/>
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

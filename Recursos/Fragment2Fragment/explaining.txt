@@ -1,0 +1,25 @@
+main implements OnFragmentSendText and the DOER method 
+
+fragment1 build on the onCreate method in MAINACTIVITY instanced the interface
+
+i make an instance in fragment1 of interface
+
+that instance is use to save the fragment context(ACTIVITY) in onAttach method
+executed when fragment was created.
+then is use in onClick method and the instance access to his inner method, it 
+call to onSentText
+
+onSentText replace the fragment 1 by 2  and in the final line access to the 
+sentText method in FRAGMENT2 who execute ASYNCTASK
+
+fragment has the bundle added to himself, fragment had invoked DOINBACKGROUNG 
+correspondingly and getarguments within then catch the inner string named text
+and saved to STRINGTEXT
+
+asyntask must implement ONPOSTEXECUTE method to show the result,
+in this particular case accros SETTEXT method declared in FRAGMENT2 who assign 
+stringtext to the view in fragment 2
+
+
+container2 is declared in landscape mode
+
