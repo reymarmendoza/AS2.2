@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">PhotoFeed</string>
+
+    <string name="login.message.email">Correo Electronico</string>
+    <string name="login.message.password">Contraseña</string>
+    <string name="login.button.signin">Iniciar Sesion</string>
+    <string name="login.button.signup">Crear Cuenta</string>
+    <string name="login.notice.message.signup">Usuario agregado exitosamente</string>
+    <string name="login.error.message.signin">Imposible iniciar sesion %s</string>
+    <string name="login.error.message.signup">Imposible registrar nuevo usuario %s</string>
+
+    <string name="main.title.list">Fotos</string>
+    <string name="main.title.map">Mapa</string>
+    <string name="main.notice.upload.init">Fotografia en proceso de publicacion</string>
+    <string name="main.notice.upload.complete">Fotografia publicada exitosamente</string>
+    <string name="main.error.dispatch.camera">Error al cargar el archivo</string>
+    <string name="main.menu.action.logout">Cerrar sesion</string>
+    <string name="main.message.picture.source">Seleccione una foto</string>
+    <string name="main_error_location_nonavailable">Imposible obtener una ubicacion</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

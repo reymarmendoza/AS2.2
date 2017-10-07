@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1047556612428",
+    "firebase_url": "https://prueba-28dbd.firebaseio.com",
+    "project_id": "prueba-28dbd",
+    "storage_bucket": "prueba-28dbd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1047556612428:android:eea1cee8412bfb6b",
+        "android_client_info": {
+          "package_name": "corp.kingsea.reymar.pruebafirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1047556612428-0vhf5u8rn45de65le1fv8srbl0bptv24.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1KVF5qabRJhpw1S8ZSg2E2ZgUviQzMOw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

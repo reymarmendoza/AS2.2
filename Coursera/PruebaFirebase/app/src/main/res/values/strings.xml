@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PruebaFirebase</string>
+    <string name="login_name">Correo electronico</string>
+    <string name="login_pass">Contraseña</string>
+    <string name="button_signup">Crear Usuario</string>
+    <string name="button_signin">Iniciar Sesion</string>
+    <string name="press_button">Email %s</string>
+</resources>

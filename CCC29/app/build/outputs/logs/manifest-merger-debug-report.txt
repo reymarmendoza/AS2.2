@@ -1,0 +1,109 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\reyma\Documents\AndroidStudioProjects\CCC29\app\src\main\AndroidManifest.xml:2:1-51:12
+	package
+		ADDED from C:\Users\reyma\Documents\AndroidStudioProjects\CCC29\app\src\main\AndroidManifest.xml:3:5-39
+		INJECTED from C:\Users\reyma\Documents\AndroidStudioProjects\CCC29\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\reyma\Documents\AndroidStudioProjects\CCC29\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\reyma\Documents\AndroidStudioProjects\CCC29\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from C:\Users\reyma\Documents\AndroidStudioProjects\CCC29\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\reyma\Documents\AndroidStudioProjects\CCC29\app\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from C:\Users\reyma\Documents\AndroidStudioProjects\CCC29\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from C:\Users\reyma\Documents\AndroidStudioProjects\CCC29\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\reyma\Documents\AndroidStudioProjects\CCC29\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\reyma\Documents\AndroidStudioProjects\CCC29\app\src\main\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from C:\Users\reyma\Documents\AndroidStudioProjects\CCC29\app\src\main\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:25.1.0] C:\Users\reyma\Documents\AndroidStudioProjects\CCC29\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.0\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.1.0] C:\Users\reyma\Documents\AndroidStudioProjects\CCC29\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.0\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.1.0] C:\Users\reyma\Documents\AndroidStudioProjects\CCC29\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.0\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.1.0] C:\Users\reyma\Documents\AndroidStudioProjects\CCC29\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.1.0] C:\Users\reyma\Documents\AndroidStudioProjects\CCC29\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.0\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.1.0] C:\Users\reyma\Documents\AndroidStudioProjects\CCC29\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.0\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:25.1.0] C:\Users\reyma\Documents\AndroidStudioProjects\CCC29\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.0\AndroidManifest.xml:23:9-51
+	android:targetSdkVersion
+		ADDED from C:\Users\reyma\Documents\AndroidStudioProjects\CCC29\app\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from C:\Users\reyma\Documents\AndroidStudioProjects\CCC29\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\reyma\Documents\AndroidStudioProjects\CCC29\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from C:\Users\reyma\Documents\AndroidStudioProjects\CCC29\app\src\main\AndroidManifest.xml:8:9-35
+		INJECTED from C:\Users\reyma\Documents\AndroidStudioProjects\CCC29\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\reyma\Documents\AndroidStudioProjects\CCC29\app\src\main\AndroidManifest.xml
+application
+ADDED from C:\Users\reyma\Documents\AndroidStudioProjects\CCC29\app\src\main\AndroidManifest.xml:11:5-49:23
+MERGED from [com.android.support:support-v4:25.1.0] C:\Users\reyma\Documents\AndroidStudioProjects\CCC29\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.1.0] C:\Users\reyma\Documents\AndroidStudioProjects\CCC29\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.1.0] C:\Users\reyma\Documents\AndroidStudioProjects\CCC29\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.1.0] C:\Users\reyma\Documents\AndroidStudioProjects\CCC29\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.1.0] C:\Users\reyma\Documents\AndroidStudioProjects\CCC29\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] C:\Users\reyma\Documents\AndroidStudioProjects\CCC29\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.0\AndroidManifest.xml:25:5-20
+	android:label
+		ADDED from C:\Users\reyma\Documents\AndroidStudioProjects\CCC29\app\src\main\AndroidManifest.xml:14:9-41
+	android:allowBackup
+		ADDED from C:\Users\reyma\Documents\AndroidStudioProjects\CCC29\app\src\main\AndroidManifest.xml:12:9-35
+	android:icon
+		ADDED from C:\Users\reyma\Documents\AndroidStudioProjects\CCC29\app\src\main\AndroidManifest.xml:13:9-45
+	android:theme
+		ADDED from C:\Users\reyma\Documents\AndroidStudioProjects\CCC29\app\src\main\AndroidManifest.xml:15:9-40
+activity#es.uam.eps.android.CCC29.Initial
+ADDED from C:\Users\reyma\Documents\AndroidStudioProjects\CCC29\app\src\main\AndroidManifest.xml:16:9-23:20
+	android:label
+		ADDED from C:\Users\reyma\Documents\AndroidStudioProjects\CCC29\app\src\main\AndroidManifest.xml:18:13-45
+	android:name
+		ADDED from C:\Users\reyma\Documents\AndroidStudioProjects\CCC29\app\src\main\AndroidManifest.xml:17:13-36
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\reyma\Documents\AndroidStudioProjects\CCC29\app\src\main\AndroidManifest.xml:19:13-22:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\reyma\Documents\AndroidStudioProjects\CCC29\app\src\main\AndroidManifest.xml:20:17-69
+	android:name
+		ADDED from C:\Users\reyma\Documents\AndroidStudioProjects\CCC29\app\src\main\AndroidManifest.xml:20:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\reyma\Documents\AndroidStudioProjects\CCC29\app\src\main\AndroidManifest.xml:21:17-77
+	android:name
+		ADDED from C:\Users\reyma\Documents\AndroidStudioProjects\CCC29\app\src\main\AndroidManifest.xml:21:27-74
+activity#es.uam.eps.android.CCC29.MainActivity
+ADDED from C:\Users\reyma\Documents\AndroidStudioProjects\CCC29\app\src\main\AndroidManifest.xml:24:9-31:20
+	android:label
+		ADDED from C:\Users\reyma\Documents\AndroidStudioProjects\CCC29\app\src\main\AndroidManifest.xml:26:13-29
+	android:name
+		ADDED from C:\Users\reyma\Documents\AndroidStudioProjects\CCC29\app\src\main\AndroidManifest.xml:25:13-41
+intent-filter#android.intent.category.DEFAULT+es.uam.eps.android.CCC29.MAINACTIVITY
+ADDED from C:\Users\reyma\Documents\AndroidStudioProjects\CCC29\app\src\main\AndroidManifest.xml:27:13-30:29
+action#es.uam.eps.android.CCC29.MAINACTIVITY
+ADDED from C:\Users\reyma\Documents\AndroidStudioProjects\CCC29\app\src\main\AndroidManifest.xml:28:17-80
+	android:name
+		ADDED from C:\Users\reyma\Documents\AndroidStudioProjects\CCC29\app\src\main\AndroidManifest.xml:28:25-77
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\reyma\Documents\AndroidStudioProjects\CCC29\app\src\main\AndroidManifest.xml:29:17-76
+	android:name
+		ADDED from C:\Users\reyma\Documents\AndroidStudioProjects\CCC29\app\src\main\AndroidManifest.xml:29:27-73
+activity#es.uam.eps.android.CCC29.About
+ADDED from C:\Users\reyma\Documents\AndroidStudioProjects\CCC29\app\src\main\AndroidManifest.xml:32:9-40:20
+	android:label
+		ADDED from C:\Users\reyma\Documents\AndroidStudioProjects\CCC29\app\src\main\AndroidManifest.xml:35:13-29
+	android:theme
+		ADDED from C:\Users\reyma\Documents\AndroidStudioProjects\CCC29\app\src\main\AndroidManifest.xml:34:13-61
+	android:name
+		ADDED from C:\Users\reyma\Documents\AndroidStudioProjects\CCC29\app\src\main\AndroidManifest.xml:33:13-34
+intent-filter#android.intent.category.DEFAULT+es.uam.eps.android.CCC29.ABOUT
+ADDED from C:\Users\reyma\Documents\AndroidStudioProjects\CCC29\app\src\main\AndroidManifest.xml:36:13-39:29
+action#es.uam.eps.android.CCC29.ABOUT
+ADDED from C:\Users\reyma\Documents\AndroidStudioProjects\CCC29\app\src\main\AndroidManifest.xml:37:17-73
+	android:name
+		ADDED from C:\Users\reyma\Documents\AndroidStudioProjects\CCC29\app\src\main\AndroidManifest.xml:37:25-70
+activity#es.uam.eps.android.CCC29.CCCPreference
+ADDED from C:\Users\reyma\Documents\AndroidStudioProjects\CCC29\app\src\main\AndroidManifest.xml:41:9-48:20
+	android:label
+		ADDED from C:\Users\reyma\Documents\AndroidStudioProjects\CCC29\app\src\main\AndroidManifest.xml:43:13-29
+	android:name
+		ADDED from C:\Users\reyma\Documents\AndroidStudioProjects\CCC29\app\src\main\AndroidManifest.xml:42:13-42
+intent-filter#android.intent.category.DEFAULT+es.uam.eps.android.CCC29.CCCPREFERENCE
+ADDED from C:\Users\reyma\Documents\AndroidStudioProjects\CCC29\app\src\main\AndroidManifest.xml:44:13-47:29
+action#es.uam.eps.android.CCC29.CCCPREFERENCE
+ADDED from C:\Users\reyma\Documents\AndroidStudioProjects\CCC29\app\src\main\AndroidManifest.xml:45:17-81
+	android:name
+		ADDED from C:\Users\reyma\Documents\AndroidStudioProjects\CCC29\app\src\main\AndroidManifest.xml:45:25-78

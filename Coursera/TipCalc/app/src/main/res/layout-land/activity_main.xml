@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".activities.MainActivity">
+    <!-- hago la conexion al archivo strings.xml con el @+id/ -->
+    <!-- hago la conexion a content_tip.xml que es otro layout como si invocara una clase-->
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tipContent"
+        layout="@layout/content_tip"/>
+    <!--asigno el nombre del elemento cn el renglon 4-->
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fragmentList"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:name="edu.galileo.android.tipcalc.fragments.TipHistoryListFragment"
+        tools:layout="@layout/fragment_tip_history_list"
+        android:layout_toRightOf="@+id/tipContent"
+        android:layout_toEndOf="@+id/tipContent"/>
+</RelativeLayout>

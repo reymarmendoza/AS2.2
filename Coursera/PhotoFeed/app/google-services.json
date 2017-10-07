@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "365254501401",
+    "firebase_url": "https://android-photo-share-c994f.firebaseio.com",
+    "project_id": "android-photo-share-c994f",
+    "storage_bucket": "android-photo-share-c994f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:365254501401:android:229d196ab06243d9",
+        "android_client_info": {
+          "package_name": "corp.kingsea.reymar.photofeed"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "365254501401-g4sil8fe586sotio0d7ogs4b9lqi99ie.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnx1z4wu2Ew0W4aEU0zhiRLkrs7upXHfQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

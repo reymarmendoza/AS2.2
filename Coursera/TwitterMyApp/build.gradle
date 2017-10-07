@@ -1,0 +1,41 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.2.2'
+        //creo la ruta para poder enlazar la inyeccion de dependencias de DAGGER2
+        classpath 'com.neenbedankt.gradle.plugins:android-apt:1.8'
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+ext{
+    minSdkVersion = 19
+    targetSdkVersion = 22
+    compileSdkVersion = 23
+    buildToolsVersion = '25.0.0'
+
+    supportLibraryVersion = '25.0.0'
+
+    twitterVersion = '1.14.0@aar'
+    butterknifeVersion = '7.0.1'
+    eventbusVersion = '3.0.0'
+    daggerVersion = '2.0.1'
+    glideVersion = '3.6.1'
+    jsr250Version = '1.0'
+}

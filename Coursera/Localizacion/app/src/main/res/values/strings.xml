@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Localizacion</string>
+
+    <string name="latitude">Latitud</string>
+    <string name="longitude">Longitud</string>
+    <string name="Ciudad">Ciudad</string>
+    <string name="location_button">Actualizar</string>
+
+    <string name="latitudToShow">Latitud: %1$s</string>
+    <string name="longitudToShow">Longitud: %1$s</string>
+    <string name="latitudUknown">Latitud: (desconocida)</string>
+    <string name="longitudUknown">Longitud: (desconocida)</string>
+</resources>

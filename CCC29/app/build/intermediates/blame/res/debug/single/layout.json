@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\reyma\\Documents\\AndroidStudioProjects\\CCC29\\app\\build\\intermediates\\res\\merged\\debug\\layout\\about.xml",
+        "source": "C:\\Users\\reyma\\Documents\\AndroidStudioProjects\\CCC29\\app\\src\\main\\res\\layout\\about.xml"
+    },
+    {
+        "merged": "C:\\Users\\reyma\\Documents\\AndroidStudioProjects\\CCC29\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "C:\\Users\\reyma\\Documents\\AndroidStudioProjects\\CCC29\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\reyma\\Documents\\AndroidStudioProjects\\CCC29\\app\\build\\intermediates\\res\\merged\\debug\\layout\\initial.xml",
+        "source": "C:\\Users\\reyma\\Documents\\AndroidStudioProjects\\CCC29\\app\\src\\main\\res\\layout\\initial.xml"
+    },
+    {
+        "merged": "C:\\Users\\reyma\\Documents\\AndroidStudioProjects\\CCC29\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main_void.xml",
+        "source": "C:\\Users\\reyma\\Documents\\AndroidStudioProjects\\CCC29\\app\\src\\main\\res\\layout\\main_void.xml"
+    }
+]
