@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="margen_interno">8dp</dimen>
+    <string name="apellidos">Apellidos:</string>
+    <string name="app_name">LayoutActividad</string>
+    <string name="borrar">Borrar</string>
+    <string name="contrasenya">Contraseña:</string>
+    <string name="contrasenyarep">Repetir contraseña:</string>
+    <string name="correo">Correo:</string>
+    <string name="detalles">Detalles:</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="msj_correo_no_valido">Correo no válido</string>
+    <string name="nombre">Nombre:</string>
+    <string name="title_activity_main">Interacción</string>
+    <string name="validar">Validar</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>

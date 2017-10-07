@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="buttonSend">Enviar</string>
+    <string name="button_order">Ordenar</string>
+    <string name="customerName">Nombre</string>
+    <string name="price_title">Precio</string>
+    <string name="quantity_title">Cantidad</string>
+    <string name="toppings">Ingredientes</string>
+    <string name="whipped_cream">Crema batida</string>
+</resources>

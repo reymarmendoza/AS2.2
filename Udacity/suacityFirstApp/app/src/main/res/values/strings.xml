@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">UdacityFirstApp</string>
+    <string name="from">From, Reinaldo</string>
+    <string name="to">Dear friend</string>
+    <string name="picture_not_found">AndroidPartyPicture</string>
+    <string name="buttonActivity">Primero</string>
+    <!--button_click-->
+    <string name="quantity_title">QUANTITY</string>
+    <string name="number">0</string>
+    <string name="button_order">ORDER</string>
+    <string name="price_title">PRICE</string>
+    <string name="increment">+</string>
+    <string name="decrement">-</string>
+</resources>

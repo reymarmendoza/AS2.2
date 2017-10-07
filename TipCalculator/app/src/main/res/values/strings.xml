@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TipCalculator</string>
+    <!-- https://developer.android.com/reference/java/util/Formatter.html -->
+    <string name="main.msg.billAmount">Bill amount</string>
+    <string name="main.hint.billAmount">Enter bill amount here</string>
+    <string name="main.msg.serviceration">Service rating</string>
+    <string name="main.msg.tipPercent">%s%% Tip percent</string>
+    <string name="main.msg.tipTotal">%s Tip total</string>
+    <string name="main.msg.billTotal">Bill total</string>
+    <string name="main.msg.billTotalResult">$%s</string>
+
+    <string name="main.contentDescription.sadEmoticon">Sad face</string>
+    <string name="main.contentDescription.okEmoticon">Happy face</string>
+    <string name="main.contentDescription.happyEmoticon">Wonderful face</string>
+</resources>

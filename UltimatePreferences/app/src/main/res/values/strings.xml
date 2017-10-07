@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">UltimatePreferences</string>
+    <string name="preferences_menu">Opciones</string>
+
+    <string name="checkbox_preference">Localizar ciudad</string>
+    <string name="edittext_preference">Definir ciudad</string>
+    <string name="list_preference">Lista Canciones</string>
+    <string name="switch_preference">Reproducir musica</string>
+
+    <string name="cancion_uno">Hep cats</string>
+    <string name="cancion_dos">In your arms</string>
+    <string name="cancion_tres">Spy glass</string>
+
+    <string name="main_text">Fragmento uno</string>
+    <string name="text_maingfragment_latitud">Latitud</string>
+    <string name="text_maingfragment_longitud">Longitud</string>
+
+    <string name="editTextDesactivated">La ubicación esta definida por el GPS</string>
+    <string name="editTextActivated">Escribe el nombre de tu ciudad</string>
+
+    <string name="gps_warn">GPS</string>
+    <string name="gps_desactivated">Para mostrar informacion segun su ubicacion recomendamos permitir el acceso a la ubicacion de su dispositivo</string>
+    <string name="permission_dialog_fragment_yes">Activar</string>
+    <string name="permission_dialog_fragment_no">Escribir ciudad</string>
+
+    <string name="permission_required">Permiso ubicacion</string>
+    <string name="permission_why">El permiso es necesario para brindarle informacion precisa del clima en su ciudad</string>
+    <string name="agree">Aceptar</string>
+    <string name="permission_not_granted">Permiso negado por el usuario</string>
+    <string name="permission_granted">Activado</string>
+</resources>

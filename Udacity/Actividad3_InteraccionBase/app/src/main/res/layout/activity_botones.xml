@@ -1,0 +1,154 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent"
+    android:background="#FFEEEEFF"
+    android:padding="@dimen/margen_interno"
+    android:orientation="vertical">
+    
+    <ScrollView
+        android:id="@+id/ScrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*" >
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nombre" />
+
+                <EditText
+                    android:id="@+id/et_nombre"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:inputType="textCapWords" >
+
+                    <requestFocus android:layout_width="wrap_content" />
+
+                </EditText>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:text="@string/apellidos" />
+
+                <EditText
+                    android:id="@+id/et_apellidos"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:inputType="text" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:text="@string/correo" />
+
+                <EditText
+                    android:id="@+id/et_correo"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:inputType="textEmailAddress" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:text="@string/contrasenya" />
+
+                <EditText
+                    android:id="@+id/et_contrasena"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:text="@string/contrasenyarep" />
+
+                <EditText
+                    android:id="@+id/et_contrasena2"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:text="@string/detalles" />
+
+                <EditText
+                    android:id="@+id/et_detalles"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:inputType="textUri"
+                    android:lines="20" />
+
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+		<Button
+		    android:id="@+id/b_borrar"
+	        android:layout_width="0dip"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:text="@string/borrar" />        
+		<Button
+		    android:id="@+id/b_validar"
+	        android:layout_width="0dip"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:text="@string/validar" />        
+	</LinearLayout>
+</LinearLayout>
+

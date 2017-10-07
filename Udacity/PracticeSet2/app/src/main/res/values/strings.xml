@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">PracticeSet2</string>
+    <!--TEAM A-->
+    <string name="teamA">Team A</string>
+    <string name="points">0</string>
+    <string name="button3">+3 POINTS</string>
+    <string name="button2">+2 POINTS</string>
+    <string name="button1">FREE THROW</string>
+    <!--TEAM B-->
+    <string name="teamB">Team B</string>
+    <string name="pointsB">0</string>
+    <string name="button3B">+3 POINTS</string>
+    <string name="button2B">+2 POINTS</string>
+    <string name="button1B">FREE THROW</string>
+
+    <string name="buttonReset">RESET</string>
+</resources>

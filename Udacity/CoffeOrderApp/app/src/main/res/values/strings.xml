@@ -1,0 +1,15 @@
+<resources>
+    <!--ISO 639-1 esta es la norma de idioma de android-->
+    <string name="app_name" translatable="false">CoffeOrderApp</string>
+    <string name="customerName">Name</string>
+    <string name="toppings">TOPPINGS</string>
+    <string name="whipped_cream">Whipped cream</string>
+    <string name="chocolate" translatable="false">Chocolate</string>
+    <string name="quantity_title">QUANTITY</string>
+    <string name="number" translatable="false">0</string>
+    <string name="button_order">Order</string>
+    <string name="price_title">PRICE</string>
+    <string name="increment" translatable="false">+</string>
+    <string name="decrement" translatable="false">-</string>
+    <string name="buttonSend">Send</string>
+</resources>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp"
+    android:id="@+id/parentLayout">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:id="@+id/wrapperEmail">
+        <!--textCapWords hace que al iniciar a digitar en el campo de texto, empiece en mayuscula-->
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:inputType="textCapWords"
+            android:hint="@string/customerName"
+            android:id="@+id/textName"/>
+
+    </android.support.design.widget.TextInputLayout>
+    <!--al igual wue el nombre puedo asignar un estilo predefinido en el archivo styles-->
+    <TextView
+        android:text="@string/toppings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        style="@style/headerTextStyle"
+        android:id="@+id/textToppings" />
+
+    <CheckBox
+        android:text="@string/whipped_cream"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:id="@+id/checkBoxWhippedCream" />
+
+    <CheckBox
+        android:text="@string/chocolate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:id="@+id/checkboxChocolate" />
+
+    <TextView
+        android:text="@string/quantity_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        style="@style/headerTextStyle"
+        android:id="@+id/textQuantity" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:id="@+id/pickerLayout">
+
+        <Button
+            android:text="@string/increment"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginEnd="8dp"
+            android:id="@+id/buttonIncrement" />
+
+        <TextView
+            android:text="@string/number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textNumber"
+            android:textAppearance="@android:style/TextAppearance.Material.Widget.TextView" />
+
+        <Button
+            android:text="@string/decrement"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="8dp"
+            android:id="@+id/buttonDecrement" />
+
+    </LinearLayout>
+
+    <TextView
+        android:text="@string/price_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:id="@+id/textPrice" />
+
+    <TextView
+        android:text="@string/number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:id="@+id/textPriceNumber" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:text="@string/button_order"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:id="@+id/buttonOrder" />
+
+        <Button
+            android:text="@string/buttonSend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonSend" />
+
+    </LinearLayout>
+
+</LinearLayout>
